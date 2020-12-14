@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 * {
     font-family: 'Nunito Sans', sans-serif;
 }
+
+.aclonia-font{font-family: 'Aclonica', sans-serif;}
+.black-text-shadow{text-shadow: 2px 2px #000000db;}
 
 .row {
     margin-bottom: 0px;
@@ -43,7 +46,7 @@
 }
 
 .top-header-contact a i {
-    background: #1577c2;
+    background: #ea5a25;
     color: #fff;
     padding: 7px 8px;
     font-size: 20px;
@@ -82,11 +85,11 @@
 
 .navigation .desktop-menu>li>a {
     padding: 0 30px;
-    border-right: 1px solid #e86167;
+    border-right: 1px solid #268bd8;
 }
 
 .navigation .desktop-menu li a.active {
-    background: #1577c2;
+    background: #ea5a25;
 }
 
 .navigation .desktop-menu #dropdown1 {
@@ -139,7 +142,7 @@ nav .sidenav-trigger i {
 
 
 .navigation {
-    background-color: #ec5923;
+    background-color: #1577c2;
 }
 
 .btn-large {
@@ -174,13 +177,14 @@ nav .sidenav-trigger i {
 }
 
 .title {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 600;
 }
+.title span{    font-family: 'Aclonica', sans-serif;}
 
-.title span:first-child {
+/* .title span:first-child {
     border-bottom: 1px solid #000;
-}
+} */
 
 .about-technology {
     margin-top: 30px;
@@ -363,8 +367,12 @@ nav .sidenav-trigger i {
 }
 
 .pt-40 {
-    padding-top: 40px;
+    padding-top: 40px !important;
 }
+
+.blue-btn{background: #1577c2;
+    color: #fff;}
+    .blue-btn:hover{background-color: #ec5923;}
 
 #online-course i {
     border: none;
@@ -397,13 +405,14 @@ nav .sidenav-trigger i {
 }
 
 .pb-60 {
-    padding-bottom: 60px;
+    padding-bottom: 60px !important;
 }
 
 .request-quote-section {
     background-image: url('../../image/form-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .pb-15 {
@@ -417,7 +426,7 @@ nav .sidenav-trigger i {
 
 .download-content {
     color: #fff;
-    padding-top: 15%;
+    padding-top: 19%;
 }
 
 .request-form {
@@ -565,6 +574,63 @@ footer{
             border-radius: 50%;}
             hr{    border: 1px solid #f15f2a;}
             .mt-15{margin-top: 15px;}
+            .pt-80{padding-top: 80px;}
+            .our-team-section a:before{       
+                content: "";
+                position: absolute;
+                width: 320px;
+                height: 240px;
+                background: #ec5923;
+                z-index: -1;
+                transition: 0.5s;
+                margin-left: 10px;
+                margin-top: 10px; }
+                .our-team-section a img{transition: 0.5s; border-radius: 5px;}
+                .our-team-section a:hover>img{transform: scale(0.9, 0.9); transition: 0.5s;}
+            .our-team-section a:hover::before{    width: 300px;
+                height: 225px;
+                transition: 0.3s;
+                margin-top: 38px;
+                margin-left: 42px;}
+            .our-team-section a{display: block;}
+            .text-center{text-align: center;}
+            .mb-25{margin-bottom: 25px;}
+            .banner-btn a:hover{filter: drop-shadow(3px 3px 20px rgba(32, 152, 209, .7));}
+            .font20{font-size: 20px;}
+            .welcome-txt{    text-transform: uppercase;
+                font-size: 49px;}
+                .welcome-esport{background-color: #eaeaea;}
+                .line-height0{line-height: 0;}
+                .play-fair-section{background-image: url(../../image/play-fair.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
+                .play-fair-title{    text-align: center;
+                    font-weight: 900;
+                    line-height: 70px;
+                    font-size: 64px;}
+                    .font22{font-size: 22px;}
+                    .ftr-link li{list-style: none; float: left;}
+                    .ftr-link ul{display: inline-block;}
+                    .ftr-link ul li a{    color: #fff;
+                        padding-left: 15px;
+                        padding-right: 15px;
+                        font-size: 16px;}
+                        .ftr-link ul li a:hover{color: #000; font-weight: bold;}
+                        html {
+                            scroll-behavior: smooth;
+                          }
+                          body::-webkit-scrollbar {
+                            width: 10px;               /* width of the entire scrollbar */
+                          }
+                          
+                          body::-webkit-scrollbar-track {
+                            background-color: #dbdbdb;    /* color of the tracking area */
+                          }
+                          
+                          body::-webkit-scrollbar-thumb {
+                            background: #EA5A25; 
+                                /* color of the scroll thumb */
+                            border-radius: 20px;       /* roundness of the scroll thumb */
+                            /* border: 3px solid orange; */  /* creates padding around scroll thumb */
+                          }
 
 @media screen and (min-width:468px) and (max-width:767px) {
     .mobile-landscape-full-width {
@@ -596,14 +662,22 @@ footer{
     .banner-btn i {
         display: none;
     }
+    .welcome-txt {
+        font-size: 36px;
+    }
+    .mobile-to-ipad-none{display: none;}
 }
 
 @media screen and (min-width:1024px) {
     .banner-heading {
         font-weight: 800;
-        font-size: 58px;
+        font-size: 42px;
         line-height: 70px;
+        margin-bottom: 0;
     }
+    .pt-desktop-40{padding-top: 40px !important;}
+
+    .slider .slides li .caption{left:14%; width: 50%; top: 20%;}
 
     .mr-desktop-30 {
         margin-right: 30px;
@@ -611,8 +685,9 @@ footer{
 
     .banner-txt {
         font-size: 22px;
-        padding-left: 100px;
         padding-right: 100px;
+        margin-top: 0px;
+        margin-bottom: 0;
     }
 
     .banner-btn {
