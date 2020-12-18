@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
 * {
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.aclonia-font{font-family: 'Aclonica', sans-serif;}
-.black-text-shadow{text-shadow: 2px 2px #000000db;}
+.aclonia-font {
+    font-family: 'Aclonica', sans-serif;
+}
+
+.black-text-shadow {
+    text-shadow: 2px 2px #000000db;
+}
 
 .row {
     margin-bottom: 0px;
@@ -180,7 +186,10 @@ nav .sidenav-trigger i {
     font-size: 30px;
     font-weight: 600;
 }
-.title span{    font-family: 'Aclonica', sans-serif;}
+
+.title span {
+    font-family: 'Aclonica', sans-serif;
+}
 
 /* .title span:first-child {
     border-bottom: 1px solid #000;
@@ -370,9 +379,14 @@ nav .sidenav-trigger i {
     padding-top: 40px !important;
 }
 
-.blue-btn{background: #1577c2;
-    color: #fff;}
-    .blue-btn:hover{background-color: #ec5923;}
+.blue-btn {
+    background: #1577c2;
+    color: #fff;
+}
+
+.blue-btn:hover {
+    background-color: #ec5923;
+}
 
 #online-course i {
     border: none;
@@ -508,8 +522,11 @@ nav .sidenav-trigger i {
     margin-bottom: 25px !important;
 }
 
-.mb-40{margin-bottom: 40px;}
-.contact-detail-section{
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.contact-detail-section {
     background-image: url('../../image/address-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -517,8 +534,13 @@ nav .sidenav-trigger i {
     padding-bottom: 35px;
 }
 
-.contact-detail a{color: #000; font-size: 18px;}
-.contact-detail{    width: 80%;
+.contact-detail a {
+    color: #000;
+    font-size: 18px;
+}
+
+.contact-detail {
+    width: 80%;
     border: 1px solid #dbdbdb;
     background: #fff;
     padding: 25px 20px 40px;
@@ -527,6 +549,7 @@ nav .sidenav-trigger i {
     z-index: 1;
     margin-bottom: 30px;
 }
+
 /* .contact-detail:before{
     content: "";
     position: absolute;
@@ -539,7 +562,7 @@ nav .sidenav-trigger i {
     
 } */
 
-footer{
+footer {
     background-image: url('../../image/ftr-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -547,8 +570,13 @@ footer{
     padding-bottom: 10px;
 }
 
-.ftr-title{color: #fff; font-weight: 600; margin-bottom: 40px;}
-.ftr-title:before{
+.ftr-title {
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.ftr-title:before {
     content: "";
     position: absolute;
     width: 184px;
@@ -558,79 +586,277 @@ footer{
     margin-top: 35px;
 }
 
-.ftr-menu-link li a{color: #f7f7f7; font-size: 16px;
-    line-height: 35px;     padding-left: 25px;}
-    .ftr-menu-link li a:hover{color: #000;}
-    .ftr-menu-link li::before{content: "\f121"; position: absolute; font-family: 'FontAwesome';     color: #fff;
-        margin-top: 6px;}
-        .ftr-social-icon a{    background: #fff;     margin-bottom: 20px;
-            margin-right: 15px;
-            color: #ec5923;
-            width: 40px;
-            height: 40px;
-            display: inline-block;
-            line-height: 40px;
-            text-align: center;
-            border-radius: 50%;}
-            hr{    border: 1px solid #f15f2a;}
-            .mt-15{margin-top: 15px;}
-            .pt-80{padding-top: 80px;}
-            .our-team-section a:before{       
-                content: "";
-                position: absolute;
-                width: 320px;
-                height: 240px;
-                background: #ec5923;
-                z-index: -1;
-                transition: 0.5s;
-                margin-left: 10px;
-                margin-top: 10px; }
-                .our-team-section a img{transition: 0.5s; border-radius: 5px;}
-                .our-team-section a:hover>img{transform: scale(0.9, 0.9); transition: 0.5s;}
-            .our-team-section a:hover::before{    width: 300px;
-                height: 225px;
-                transition: 0.3s;
-                margin-top: 38px;
-                margin-left: 42px;}
-            .our-team-section a{display: block;}
-            .text-center{text-align: center;}
-            .mb-25{margin-bottom: 25px;}
-            .banner-btn a:hover{filter: drop-shadow(3px 3px 20px rgba(32, 152, 209, .7));}
-            .font20{font-size: 20px;}
-            .welcome-txt{    text-transform: uppercase;
-                font-size: 49px;}
-                .welcome-esport{background-color: #eaeaea;}
-                .line-height0{line-height: 0;}
-                .play-fair-section{background-image: url(../../image/play-fair.jpg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;}
-                .play-fair-title{    text-align: center;
-                    font-weight: 900;
-                    line-height: 70px;
-                    font-size: 64px;}
-                    .font22{font-size: 22px;}
-                    .ftr-link li{list-style: none; float: left;}
-                    .ftr-link ul{display: inline-block;}
-                    .ftr-link ul li a{    color: #fff;
-                        padding-left: 15px;
-                        padding-right: 15px;
-                        font-size: 16px;}
-                        .ftr-link ul li a:hover{color: #000; font-weight: bold;}
-                        html {
-                            scroll-behavior: smooth;
-                          }
-                          body::-webkit-scrollbar {
-                            width: 10px;               /* width of the entire scrollbar */
-                          }
-                          
-                          body::-webkit-scrollbar-track {
-                            background-color: #dbdbdb;    /* color of the tracking area */
-                          }
-                          
-                          body::-webkit-scrollbar-thumb {
-                            background: #EA5A25; 
-                                /* color of the scroll thumb */
-                            border-radius: 20px;       /* roundness of the scroll thumb */
-                            /* border: 3px solid orange; */  /* creates padding around scroll thumb */
-                          }
+.ftr-menu-link li a {
+    color: #f7f7f7;
+    font-size: 16px;
+    line-height: 35px;
+    padding-left: 25px;
+}
+
+.ftr-menu-link li a:hover {
+    color: #000;
+}
+
+.ftr-menu-link li::before {
+    content: "\f121";
+    position: absolute;
+    font-family: 'FontAwesome';
+    color: #fff;
+    margin-top: 6px;
+}
+
+.ftr-social-icon a {
+    background: #fff;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    color: #ec5923;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+hr {
+    border: 1px solid #f15f2a;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.our-team-section a:before {
+    content: "";
+    position: absolute;
+    width: 320px;
+    height: 240px;
+    background: #ec5923;
+    z-index: -1;
+    transition: 0.5s;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.our-team-section a img {
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.our-team-section a:hover>img {
+    transform: scale(0.9, 0.9);
+    transition: 0.5s;
+}
+
+.our-team-section a:hover::before {
+    width: 300px;
+    height: 225px;
+    transition: 0.3s;
+    margin-top: 38px;
+    margin-left: 42px;
+}
+
+.our-team-section a {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.banner-btn a:hover {
+    filter: drop-shadow(3px 3px 20px rgba(32, 152, 209, .7));
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.welcome-txt {
+    text-transform: uppercase;
+    font-size: 49px;
+}
+
+.welcome-esport {
+    background-color: #eaeaea;
+}
+
+.line-height0 {
+    line-height: 0;
+}
+
+.play-fair-section {
+    background-image: url(../../image/play-fair.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.play-fair-title {
+    text-align: center;
+    font-weight: 900;
+    line-height: 70px;
+    font-size: 64px;
+}
+
+.font22 {
+    font-size: 22px;
+}
+
+.ftr-link li {
+    list-style: none;
+    float: left;
+}
+
+.ftr-link ul {
+    display: inline-block;
+}
+
+.ftr-link ul li a {
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.ftr-link ul li a:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #dbdbdb;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #EA5A25;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    /* border: 3px solid orange; */
+    /* creates padding around scroll thumb */
+}
+
+.our-team-page-section {
+    background-image: url('../../image/our-team.jpg');
+}
+
+.breadcumb-img {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breadcumb-styling {
+    padding: 0px 50px 0 40px;
+    list-style: none;
+    width: auto;
+    background: rgb(255 255 255 / 18%);
+    border-radius: 80px;
+    position: relative;
+    top: 111px;
+}
+
+.breadcumb-styling li {
+    float: left;
+    padding: 0 5px;
+}
+
+.breadcumb-styling li a {
+    color: #fff;
+}
+
+.breadcumb-styling li {
+    color: #fff;
+    font-size: 18px;
+}
+
+.breadcrumb-styling li:not(:first-child):before {
+    content: '::' !important;
+    color: #fff;
+    position: absolute;
+}
+
+.breadcumb-styling {
+    display: inline-block;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.glow {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 5px #f2784b, 0 0 10px #f2784b, 0 0 15px #f2784b, 0 0 20px #f2784b, 0 0 25px #f2784b, 0 0 30px #f2784b, 0 0 35px #f2784b;
+    }
+
+    to {
+        text-shadow: 0 0 10px #ea5a25, 0 0 20px #ea5a25, 0 0 30px #ea5a25, 0 0 40px #ea5a25, 0 0 50px #ea5a25, 0 0 60px #ea5a25, 0 0 70px #ea5a25;
+    }
+}
+
+.text-right {
+    text-align: right;
+}
+
+.player-name {
+    display: inline-block;
+    background: #ea5a25;
+    color: #fff;
+    padding: 40px 40px 40px 100px;
+    font-family: 'Aclonica', sans-serif;
+    margin: 0;
+}
+
+.player-detail-row {
+    background: #222;
+    box-shadow: 0px 5px 15px #00000075;
+}
+
+.color-light-grey{color: #bdbdbd;}
+.player-social-icon a{background: #ea5a25 !important; color: #222 !important;}
+.player-social-icon a:hover:before{background-color: #fff !important;}
+.player-social-icon{margin-top: 20px;}
+.pt-25{padding-top: 25px;}
+.player-name::before{
+    content: "";
+    position: absolute;
+    width: 121px;
+    height: 138px;
+    background-image: linear-gradient(117deg, rgba(255, 255, 255, 1)36%, rgb(233 90 37)30%);
+    margin-top: -40px;
+    margin-left: -159px;
+}
+.pt-100{padding-top: 100px;}
+.mt-60{margin-top: 60px;}
 
 @media screen and (min-width:468px) and (max-width:767px) {
     .mobile-landscape-full-width {
@@ -662,10 +888,14 @@ footer{
     .banner-btn i {
         display: none;
     }
+
     .welcome-txt {
         font-size: 36px;
     }
-    .mobile-to-ipad-none{display: none;}
+
+    .mobile-to-ipad-none {
+        display: none;
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -675,9 +905,16 @@ footer{
         line-height: 70px;
         margin-bottom: 0;
     }
-    .pt-desktop-40{padding-top: 40px !important;}
 
-    .slider .slides li .caption{left:14%; width: 50%; top: 20%;}
+    .pt-desktop-40 {
+        padding-top: 40px !important;
+    }
+
+    .slider .slides li .caption {
+        left: 14%;
+        width: 50%;
+        top: 20%;
+    }
 
     .mr-desktop-30 {
         margin-right: 30px;
@@ -712,7 +949,8 @@ footer{
         width: 100% !important;
     }
 
-    .mobile-to-ipad-falf-width, .ftr-menu-link {
+    .mobile-to-ipad-falf-width,
+    .ftr-menu-link {
         width: 50% !important;
     }
 }
@@ -727,4 +965,10 @@ footer{
     .container {
         width: 73% !important;
     }
+
+    .pr-desktop-0 {
+        padding-right: 0px !important;
+    }
+
+    .desktop-mt-150{margin-top: -137px;}
 }
