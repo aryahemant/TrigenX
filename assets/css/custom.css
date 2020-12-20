@@ -831,9 +831,10 @@ body::-webkit-scrollbar-thumb {
     display: inline-block;
     background: #ea5a25;
     color: #fff;
-    padding: 40px 40px 40px 100px;
+    padding: 20px 40px 20px 100px;
     font-family: 'Aclonica', sans-serif;
     margin: 0;
+    font-size: 32px;
 }
 
 .player-detail-row {
@@ -850,9 +851,9 @@ body::-webkit-scrollbar-thumb {
     content: "";
     position: absolute;
     width: 121px;
-    height: 138px;
+    height: 75px;
     background-image: linear-gradient(117deg, rgba(255, 255, 255, 1)36%, rgb(233 90 37)30%);
-    margin-top: -40px;
+    margin-top: -20px;
     margin-left: -159px;
 }
 .pt-100{padding-top: 100px;}
