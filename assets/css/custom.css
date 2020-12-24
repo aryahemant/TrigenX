@@ -90,13 +90,18 @@
 }
 
 .navigation .desktop-menu>li>a {
-    padding: 0 30px;
-    border-right: 1px solid #268bd8;
+    padding: 0 20px;
+    color: #000;
+    /* border-right: 1px solid #268bd8; */
+}
+.navigation .desktop-menu>li>a.active{
+    color: #ec5923;
+    font-weight: bold;
 }
 
-.navigation .desktop-menu li a.active {
+/* .navigation .desktop-menu li a.active {
     background: #ea5a25;
-}
+} */
 
 .navigation .desktop-menu #dropdown1 {
     top: 64px !important;
@@ -148,7 +153,8 @@ nav .sidenav-trigger i {
 
 
 .navigation {
-    background-color: #1577c2;
+    background-color: transparent;
+    box-shadow: none;
 }
 
 .btn-large {
@@ -167,7 +173,11 @@ nav .sidenav-trigger i {
 .banner-btn a {
     font-size: 18px;
     font-weight: 700;
+    background: #1571be;
+    color: #fff;
 }
+
+.slider .slides{background: transparent;}
 
 .white-btn {
     background: #fff;
@@ -640,6 +650,7 @@ hr {
     transition: 0.5s;
     margin-left: 10px;
     margin-top: 10px;
+    opacity: 0;
 }
 
 .our-team-section a img {
@@ -658,6 +669,7 @@ hr {
     transition: 0.3s;
     margin-top: 38px;
     margin-left: 42px;
+   opacity: 1;
 }
 
 .our-team-section a {
@@ -756,8 +768,13 @@ body::-webkit-scrollbar-thumb {
 }
 
 .our-team-page-section {
-    background-image: url('../../image/our-team.jpg');
+    background-image: url('../../image/our-team2.jpg');
 }
+.privacy-policy-page-section{background-image: url(../../image/privacy-policy.jpg);}
+
+.inner-page-nav{    height: 78px !important;
+    line-height: 78px !important;}
+    img:focus, a:focus{outline: 0;}
 
 .breadcumb-img {
     padding-top: 100px;
@@ -858,6 +875,18 @@ body::-webkit-scrollbar-thumb {
 }
 .pt-100{padding-top: 100px;}
 .mt-60{margin-top: 60px;}
+.navigation{position: relative;
+    z-index: 9;}
+    .banner-heading{color: #000;}
+    .banner-section p{color: #000 !important;}
+    nav ul a:hover{background-color: transparent; color: #ec5923 !important;}
+    .sidenav-overlay{background-color: rgb(0 0 0 / 0%);}
+    .privacy-title{    font-size: 28px;
+        font-weight: 700; background: #1577c1;
+        display: inline-block;
+        color: #fff;
+        padding: 10px 30px 10px 20px; margin-bottom: 0px;}
+        .mt-40{margin-top: 40px;}
 
 @media screen and (min-width:468px) and (max-width:767px) {
     .mobile-landscape-full-width {
@@ -875,6 +904,10 @@ body::-webkit-scrollbar-thumb {
     .banner-btn a {
         margin-bottom: 10px;
     }
+    .our-team-section a:hover::before{    width: 234px;
+        height: 175px;}
+        .play-fair-title{    line-height: 32px;
+            font-size: 25px;}
 }
 
 @media screen and (max-width:1023px) {
@@ -912,9 +945,9 @@ body::-webkit-scrollbar-thumb {
     }
 
     .slider .slides li .caption {
-        left: 14%;
-        width: 50%;
-        top: 20%;
+        left: 12%;
+        width: 52%;
+        top: 35%;
     }
 
     .mr-desktop-30 {
@@ -964,7 +997,7 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (min-width: 993px) {
     .container {
-        width: 73% !important;
+        width: 78% !important;
     }
 
     .pr-desktop-0 {
